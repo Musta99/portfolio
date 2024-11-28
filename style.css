@@ -160,6 +160,9 @@ span {
   .header {
     border-radius: 10px;
   }
+  .page1 {
+    height: 80%;
+  }
   .text {
     height: 50%;
   }
