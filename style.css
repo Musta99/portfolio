@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Asul", serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+.page1 {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  flex: 0 1 auto;
+  background-color: #344c36;
+  border-radius: 100px;
+}
+.content {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #faad1b;
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span {
+  color: #faad1b;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circle {
+  height: 300px;
+  width: 300px;
+  background-color: #faad1b;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle > img {
+  transition: 0.5s;
+}
+
+.circle > img:hover {
+  scale: 1.2;
+}
+
+.page2 {
+}
+
+.feature {
+  background-color: #344c36;
+  height: 380px;
+  width: 300px;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.page3 > h2 {
+  flex: 0 1 auto;
+}
+
+.myContent {
+  flex: 1 1 auto;
+}
+
+.imageCircle {
+  height: 200px;
+  width: 200px;
+}
+
+.page4 {
+  width: 100%;
+}
+
+.main {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.items {
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.items:hover {
+  scale: 1.2;
+}
+
+.page5 {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.page5 > h4 {
+  flex: 0 1 auto;
+}
+
+.content5 {
+  flex: 1 1 auto;
+}
+
+.page6 {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.icon > a > i {
+  color: black;
+  transition: 1s;
+}
+
+.icon > a > i:hover {
+  color: #344c36;
+}
+
+@media (max-width: 700px) {
+  .header {
+    border-radius: 10px;
+  }
+  .text {
+    height: 50%;
+  }
+
+  .image {
+    height: 50%;
+  }
+  .circle {
+    height: 200px;
+    width: 200px;
+    background-color: #faad1b;
+    border-radius: 100px;
+  }
+  .circle > img {
+    height: 200px;
+  }
+
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
